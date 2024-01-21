@@ -1,0 +1,152 @@
+.main-back{
+    background: url(../IMG/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+button{
+    padding: 5px;
+    border: 2px solid rgb(252, 240, 174);
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+button a{
+    color: rgb(252, 240, 174);
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2vw;
+
+}
+
+button:hover{
+    background-color: rgb(252, 240, 174);
+    color: rgb(0, 0, 0);
+}
+
+button:hover a{
+    color: #000000;
+}
+
+button a:hover{
+    color: #000000;
+}
+
+.navbar-toggler{
+    background-color: gainsboro;
+}
+
+.navbar-toggler:hover{
+    background-color: gainsboro;
+}
+
+.profile{
+    width: 15vw;
+}
+
+
+
+.read-more-btn{
+    background-color: rgb(63, 62, 62);
+    border: none;
+    padding: 8px;
+}
+
+.read-more-btn a{
+    color: rgb(252, 240, 174);
+    /* font-size: ; */
+}
+
+.read-more-btn:hover{
+    background-color: gray;
+}
+
+.read-more-btn:hover a{
+    color: rgb(252, 240, 174);
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media(min-width:0px) and (max-width:576px){
+
+    .main-back{
+        height: 90vh;
+    }
+
+    .profile{
+        width: 45vw;
+    }
+
+    button a{
+        font-size: 4.5vw;
+    }
+
+    .carousal-big{
+        display: none;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:767px){
+    .main-back{
+        height: 100vh;
+    }
+
+    button a{
+        font-size: 3.8vw;
+        padding: 8px;
+    }
+
+    .profile{
+        width: 40vw;
+    }
+
+    .carousal-big{
+        display: none;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    button a{
+        font-size: 2vw;
+        padding: 5px;
+    }
+
+    .profile{
+        width: 30vw;
+    }
+
+    .carousal-md-big{
+        display: none;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    button a{
+        font-size: 1.3vw;
+        padding: 0px;
+    }
+
+    .profile{
+        width: 20vw;
+    }
+}  
+
+
+
+@media (min-width:1200px) and (max-width:1399px){
+    
+}
+
+
+@media (min-width:1400px){
+    
+}

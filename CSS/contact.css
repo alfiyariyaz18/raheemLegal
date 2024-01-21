@@ -1,0 +1,15 @@
+.contact-page-info{
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 1.4vw;
+
+}
+
+.contact-page-info:hover{
+    color: gray;
+}
+
+.my-submit-btn{
+    border-radius: none;
+}

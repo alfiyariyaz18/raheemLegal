@@ -1,0 +1,15 @@
+.blog-1-back{
+    background: url(../IMG/service-back-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+
+.h1-blog{
+
+    color: rgb(252, 245, 205);
+    font-family: 'Playfair Display', serif;
+ 
+    font-size: 2.8vw;
+}
