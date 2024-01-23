@@ -147,6 +147,13 @@
         font-size: 6vw;
     }
 
+    .p{
+        font-size: 3.8vw;
+    }
+
+    .work-p{
+        font-size: 4.5vw;
+    }
 
 }
 
@@ -194,7 +201,7 @@
     }
 
     .main-first-layer{
-        height: 65vh;
+        height: max-content;
     }
 
     .main-second-layer{
@@ -269,7 +276,7 @@
     }
 
     .p{
-        font-size: 1.3vw;
+        font-size: 1.4vw;
     }
 
     .carousel-caption{
@@ -281,7 +288,7 @@
     }
 
     .work-p{
-        font-size: 1.4vw;
+        font-size: 1.6vw;
     }
 
     .card{
