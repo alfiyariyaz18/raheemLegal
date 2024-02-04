@@ -1,6 +1,6 @@
 footer {
     margin-top: 100px;
-    background: url(../IMG-2/footer-big.png);
+    background: url(../IMG-2/footer-big.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: max-content;
@@ -24,7 +24,7 @@ footer {
 /* MEDIA QUERY */
 @media(min-width:0px) and (max-width:576px) {
     footer {
-        background: url(../IMG-2/footer.jpg);
+        background: url(../IMG-2/footer.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         height: max-content;
@@ -45,7 +45,7 @@ footer {
 
 @media (min-width:577px) and (max-width:767px) {
     footer {
-        background: url(../IMG-2/footer.jpg);
+        background: url(../IMG-2/footer.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         height: max-content;
